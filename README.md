@@ -4,7 +4,7 @@ a simple twitch bot in development using the [TwitchJs](https://github.com/twitc
 
 for more addon please contact me on discord  <br>
 
-for any problem or question, please come to [Discord]( https://discord.gg/tbMaZG5UjH) so that I can best guide you.
+for any problem or question, please come to [Aethteam Discord]( https://discord.gg/tbMaZG5UjH) so that I can best guide you.
 
 
 ## to launch the bot

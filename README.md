@@ -22,22 +22,17 @@ for any problem or question, please come to [Aethteam Discord]( https://discord.
 
 <p>then </p>
 
-```bat
-    npm install
-```
-
-<br>
-
-
-<p>then</p>
+<p>in Windows</p>
 
 ```bat
-    npm run prod
+    .\start.bat
 ```
 
 ## features
 
 [✅] dynamic commands <br>
+[✅] script for start the bot | windows <br>
+[❌] script for start the bot | Linux <br>
 [❌] langage api <br>
 [❌] web site
 

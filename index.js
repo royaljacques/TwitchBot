@@ -2,13 +2,13 @@ const { Client } = require('@twitchapis/twitch.js');
 const env = require('dotenv').config();
 const fs = require("fs");
 const path = require('node:path');
-const rankSysteme = require("./modules/rankSysteme");
 let config = require("./config.json");
 const client = new Client({
     channels: config.channels,
 });
+
 let commandsLoader = {}
-function loadCommands() {
+async function loadCommands() {
     let commandes = [];
     const commandsPaths = path.join(__dirname, 'twitch_commands');
     const commandFiless = fs.readdirSync(commandsPaths).filter(file => file.endsWith('.js'));

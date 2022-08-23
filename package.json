@@ -1,0 +1,22 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "prod": "node index.js",
+    "dev": "nodemon dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@twitchapis/twitch.js": "^1.1.0",
+    "better-sqlite3": "^7.6.2",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "quick.db": "^9.0.6"
+  }
+}

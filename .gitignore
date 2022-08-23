@@ -1,6 +1,7 @@
 node_modules/
 .idea/
 .env
+assets/db/rankSystem.sql
 # User-specific files
 *.rsuser
 *.suo

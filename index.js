@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require('node:path');
 const rankSysteme = require("./modules/rankSysteme");
 let config = require("./config.json");
-const ping = require('./twitch_commands/ping');
 const client = new Client({
     channels: config.channels,
 });
@@ -29,6 +28,7 @@ loadCommands()
 client.on('ready', e => {
     console.log(`Logged in as ${client.user.name}!`);
 });
+
 
 client.on('message', async (msg) => {
     rankSysteme.addXp(msg.author.id, msg)

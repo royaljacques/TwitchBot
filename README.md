@@ -35,8 +35,8 @@ for any problem or question, please come to [Discord]( https://discord.gg/tbMaZG
 
 ## features
 
-[✅] dynamic commands 
-[❌] langage api
+[✅] dynamic commands <br>
+[❌] langage api <br>
 [❌] web site
 
 

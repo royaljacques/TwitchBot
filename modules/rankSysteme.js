@@ -1,7 +1,7 @@
 const {QuickDB} = require("quick.db");
 
 const db = new QuickDB({filePath: "assets/db/rankSystem.sqlite"})
-let {rankSystem} = require("./../config.json")
+let {rankSystem} = require("./config.json")
 
 
 module.exports.addXp = async (id, msg)=> {
